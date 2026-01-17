@@ -8,10 +8,10 @@
 
 //Sobrecargar operadores y que sea amiga de la estructura => mantener encapsulamiento (miembros privados) pero seguir usando operadores de forma natural.
 struct complejo {
-    long double real;
-    long double imaginario;
+    long double real;       
+    long double imaginario; 
 
-    friend complejo operator+(const complejo& numC1, const complejo& numC2);
+    friend complejo operator+(const complejo& numC1, const complejo& numC2); 
     friend complejo operator-(const complejo& numC1, const complejo& numC2);
     friend complejo operator*(const complejo& numC1, const complejo& numC2);
     friend complejo operator~(const complejo& numC);
