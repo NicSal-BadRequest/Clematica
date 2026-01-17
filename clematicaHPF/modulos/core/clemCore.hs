@@ -3,8 +3,8 @@ module ClemCoreV1
 where 
 
 data ClemCore = ExpA Int
-              | ExpB Double
-              | ExpC Double Double
+            | ExpB Double
+            | ExpC Double Double
 
 sucesor :: ClemCore -> Int          -- O(1)
 opuesto :: ClemCore -> Double       -- O(1)
