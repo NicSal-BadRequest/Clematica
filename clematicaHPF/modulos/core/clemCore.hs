@@ -1,5 +1,5 @@
 module ClemCoreV1
-    (ClemCore, 
+    (ClemCore(..), 
     Complejo(..),
     sumar,
     producto, 
